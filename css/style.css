@@ -6,8 +6,46 @@
   top: 0px;
   background-color: #006699;  
 }
+/*
 
-ul {
+.mySkills {
+  display: flex;
+  }
+*/
+#profilePicture {
+  float: center;
+
+  }
+.boxes {
+  display: flex;
+  flex-direction: row;
+  margin: 10px; 
+  padding: 20px;
+
+
+  }
+
+  p {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    display: block;
+  }
+
+  h1 {
+font-size: extra-large;
+text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .skillsBox {
+  padding: 10px;
+  margin: 10px;
+
+  }
+
+
+  ul {
   list-style-type: none;
   margin: 0;
   padding: 5;
@@ -15,22 +53,21 @@ ul {
   background-color: #006699;
 }
 
-li {
-  float: right;
-}
-
 li, a, button {
   font-family: "Poppins", serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 14px;
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 10px 16px;
   text-decoration: none;
 }
 
-li a:hover {
+.button, a {
+  background-color: #006699;
+}
+.button, a hover {
   background-color: #004263;
 }
 
@@ -45,7 +82,7 @@ header {
 }
 
 .nav_links {
-    list-style: none;
+  list-style: none;
 }
 
 .nav_links li {
